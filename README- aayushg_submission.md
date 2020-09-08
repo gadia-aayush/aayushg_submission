@@ -58,7 +58,7 @@
 
 ##### Requirements-
 
-- **Available in the Repo.**[ **Click Here**]()
+- **Available in the Repo.**[ **Click Here**](https://github.com/gadia-aayush/aayushg_submission/blob/master/requirements.txt)
 
 -----
 
