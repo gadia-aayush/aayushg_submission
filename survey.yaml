@@ -1,0 +1,28 @@
+--- 
+survey: 
+  - 
+    name: question1
+    options: 
+      - Male
+      - Female
+    text: "What is your gender?"
+  - 
+    name: question2
+    options: 
+      - true
+      - false
+      - Ex-smoker
+    text: "Are you a smoker?"
+  - 
+    name: question3
+    options: 
+      - Yes
+      - No
+    text: "Do you drink alcohol?"
+  - 
+    name: question4
+    options: 
+      - "Don't exercise"
+      - "1 to 5 times"
+      - "More than 5 times"
+    text: "How many times per week do you exercise?"
