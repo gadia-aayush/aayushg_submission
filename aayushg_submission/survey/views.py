@@ -60,7 +60,7 @@ class Survey(APIView):
 					output = {"code" : 200, "status": "OK", "type" : "Survey API", "message" : "No Qns / Survey Over", "output" : None}
 
 					#restoring the column to prev state
-					for i in range(Relation_Survey_Qn.objects.all().count()):
+					for i in range(1,Relation_Survey_Qn.objects.all().count()+1):
 						Relation_Survey_Qn.objects.filter(rel_id = int(i)).update(rel_last = 0)
 
 					return JsonResponse(output, safe = False)
